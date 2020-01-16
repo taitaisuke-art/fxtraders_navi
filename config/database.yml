@@ -52,3 +52,6 @@ production:
   database: fxtraders_navi_production
   username: fxtraders_navi
   password: <%= ENV['FXTRADERS_NAVI_DATABASE_PASSWORD'] %>
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
