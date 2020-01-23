@@ -69,6 +69,7 @@ gem 'sprockets', '3.7.2'
 gem 'devise'
 gem 'kaminari'
 
+
 group :production do
   gem 'pg'
 end
