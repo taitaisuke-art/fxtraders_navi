@@ -127,12 +127,11 @@ header.header {
   left: 0;
   right: 0;
   z-index: 5;
-  height: 100px;
+  height: 150px;
   div.header__bar.row {
     position: relative;
     h1.grid-6 {
       font-size: 20px;
-      line-height: 41px;
       float: left;
       a {
         display: block;
@@ -141,6 +140,7 @@ header.header {
     div.grid-6 {
       float: right;
       text-align: right;
+      margin-top: -48px;
       a.post {
         @extend .btn;
         width: 120px;
@@ -379,7 +379,8 @@ footer {
 
 .search-form {
   text-align: center;
-  padding-top: 60px;
+  margin-left:50px;
+  padding-top: 103px;
   .search-input {
     width: 30%;
     margin-right: 10px;
